@@ -6,10 +6,8 @@
             :key="video.etag"
             @videoSelect="onVideoSelect"
         >
-
         </video-list-item>
     </ul>
-
 </template>
 
 <script>
@@ -29,8 +27,4 @@
         }
     };
 </script>
-
-<style scoped>
-
-</style>
 
